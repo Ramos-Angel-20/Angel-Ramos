@@ -3,6 +3,7 @@ import { Flex, Box, Heading, Button, useColorModeValue, Link, Container, Text, I
 import flag from './assets/mexico.svg';
 import Navbar from './components/Navbar';
 import About from './components/About';
+import Work from './components/Work';
 
 const App = () => {
   
@@ -13,12 +14,13 @@ const App = () => {
   return (
     <Box minH='100vh' minW='full' backgroundColor={appBgColor}>
       <Navbar/>
-      <Container w='90%' maxW='2000px' p={0}>
+      <Container w='90%' maxW='600px' p={0} marginTop={5} >
         <Flex borderRadius='md' p={4} backgroundColor={boxBgColor} align='center' justify='space-between' >
           <Text fontWeight='600' >Desarrollador Frontend</Text>
           <Image src={flag} h='20px' />
         </Flex>
         <About/>
+        <Work/>
       </Container>
     </Box>
   );

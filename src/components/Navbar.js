@@ -18,15 +18,15 @@ const Navbar = () => {
             style={{ backdropFilter: 'blur(10px)' }}
             top={0}
         >
-            <Flex w='90%' marginX='auto' maxW='2000px' paddingY={2} >
+            <Flex w='90%' marginX='auto' maxW='900px' paddingY={2} >
                 <Flex w='100%' p={0} align='center' >
                     <IconButton fontSize={20} variant='ghost' icon={<FaCode />} />
-                    <Heading display={['none', null, 'block']} >Angel Ramos</Heading>
+                    <Heading fontSize='25px' >Angel Ramos</Heading>
                 </Flex>
                 <Flex>
                     <IconButton backgroundColor={colorMode === 'light' ? 'purple.600' : 'orange.300'} color='white' icon={colorMode === 'light' ? <HiOutlineMoon /> : <HiOutlineSun />} onClick={toggleColorMode} fontSize={20} marginRight={2} />
                     <Menu>
-                        <MenuButton as={IconButton} icon={<HiMenuAlt3 />} aria-label='Sections' fontSize={20} />
+                        <MenuButton  display={['flex', null, 'none']} alignItems='center' justifyContent='center' as={IconButton} icon={<HiMenuAlt3 />} aria-label='Sections' fontSize={20} />
                         <MenuList>
                             <MenuItem>
                                 Proyectos
