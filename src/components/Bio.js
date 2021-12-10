@@ -30,7 +30,7 @@ const Bio = () => {
                 </ListItem>
                 <ListItem>
                     <ListIcon as={ImBooks} />
-                    (2018) Ingreso a la carrera de Ingenieria Informatica en el Instituto Tecnologico de Tijuana (ITT).
+                    (2018) Ingreso a la carrera de Ingenieria Informatica en el Instituto Tecnologico de Tijuana (ITT) y comienzo a tomar cursos de desarrollo web.
                 </ListItem>
                 <Image src={itt} alt='Instituto Tecnologico de Tijuana' borderRadius='lg' />
                 <ListItem>
