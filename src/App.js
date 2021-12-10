@@ -1,5 +1,6 @@
 import { Flex, Box, Heading, Button, useColorModeValue, Link, Container, Text, Image } from '@chakra-ui/react';
 import { AnimatePresence, motion } from 'framer-motion';
+import { Router, Route } from 'react-router-dom';
 
 import { useEffect } from 'react';
 
@@ -15,7 +16,7 @@ const App = () => {
   const boxBgColor = useColorModeValue('white', 'gray.700');
 
   useEffect(() => {
-    window.scroll(0,0);
+    window.scroll(0, 0);
   }, []);
 
   const variants = {

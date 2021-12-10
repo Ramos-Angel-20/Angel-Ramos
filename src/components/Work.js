@@ -1,27 +1,19 @@
 import { Heading, Text, Stack, Button, Center } from '@chakra-ui/react';
 import { FiDownload } from 'react-icons/fi';
 
+import SectionHeading from './SectionHeading';
+
 const Work = () => {
     return (
         <Stack w='full' marginTop={5} direction='column' >
-            <Heading
-                as='h2'
-                textDecoration='underline'
-                textUnderlineOffset={6}
-                textDecorationColor='#525252'
-                textDecorationThickness={4}
-                fontSize='22px'
-                paddingBottom={2}
-            >
-                Trabajo
-            </Heading>
+            <SectionHeading>Trabajo</SectionHeading>
             <Text textAlign='justify' >
                 Quiza esto sea decepcionante para ti reclutador que esta visitando mi pagina,
-                pero nunca he trabajado, almenos no en el área de <strong>desarrollo web</strong> , me he desempeñado como
-                auxiliar de analisis clinicos y tambien he sido empleado de un supermercado.
+                pero nunca he trabajado, almenos no en el área de <strong>desarrollo de software</strong> , me he desempeñado como
+                auxiliar de análisis clínicos y tambien he sido empleado de un supermercado.
             </Text>
             <Text textAlign='justify' >
-                Desde pequeño he tenido un gran <strong>interes</strong> por el desarrollo de software, razon que me llevo a estudiar
+                Desde pequeño he tenido un gran <strong>intéres</strong> por el desarrollo de software, razon que me llevo a estudiar
                 Ingeniería Informática, carrera de la cual me encuentro proximo a graduarme.
             </Text>
             <Text textAlign='justify' >
